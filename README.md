@@ -909,14 +909,4 @@ class MovieReviewAnalyzer:
         ]
         
         self.reviews.extend(sample_reviews)
-        self.update_history_list()
-        self.update_visualizations()
-        messagebox.showinfo("Success", "✅ Sample reviews loaded successfully!")
-
-def main():
-    root = tk.Tk()
-    app = MovieReviewAnalyzer(root)
-    root.mainloop()
-
-if __name__ == "__main__":
-    main()movie-review-analyzer-2
+        
